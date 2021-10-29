@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "./dist/typings",
+        "noEmit": false,
+        "emitDeclarationOnly": true
+
+    },
+    "include": [
+        "src/**/*",
+        
+    ],
+    "exclude": ["**/*.spec.*", "**/*.stories.*"]
+}
